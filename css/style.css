@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+html{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.page-wrapper {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 7px;
+    color: rgba(53, 37, 37, 0.582);
+    text-shadow:3px;
+    text-align: justify;
+    line-height: 10px;
+    
+}
+
+[role = banner] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: url(../img/huntington.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 15vh;
+    color: white;
+    margin: 0px -68px;
+    }
+
+a {
+    color:rgba(53, 37, 37, 0.582);
+    text-decoration: none;
+}
+    a:hover {
+    color: blue;
+    text-decoration: underline;
+    }
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    text-shadow: 3px 3px 2px rgb(8, 0, 0);
+}
+
+h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 160px;
+    font-family: 'Satisfy', cursive;
+    font-size: 13px;
+    
+}
+
+h3 {
+    font-family:'Roboto', sans-serif; 
+    font-weight: 900;
+    font-size: 10px;
+    color: black;
+}
+
+#zen-summary {
+    padding: 5px 70px 15px 70px;
+    
+}
+
+#zen-preamble {
+    padding: 0px 70px 15px 70px;
+    
+}
+
+#zen-explanation {
+padding: 0px 70px 30px 70px;
+}
+
+#zen-participation {
+    background: url(../img/bamboo.png);
+    background-color: darkseagreen; 
+    color: white;
+    margin: -8px;
+    margin-bottom: -10px;
+    padding: 2px 70px 15px 70px;
+    height: 7vh;
+    font-size: 7px;
+    line-height: 10px;
+}
+
+.benefits {
+    background: url(../img/bamboo.png);
+    background-color: darkseagreen; 
+    color: white;
+    margin: -8px;
+    padding: 0px 70px 15px 70px;
+    height: 3vh;
+    line-height: 10px;
+    font-size: 7px;
+}
+
+#zen-requirements {
+    padding: 0px 70px 15px 70px;
+}
+
+[role=contentinfo] {
+    background-color: darkseagreen;
+    height: 100px;
+    font-size: 12px;
+    color:rgba(151, 145, 145, 0.582); ;
+    margin-left: -78px;
+    margin-right: -78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+    
+}
+[role=contentinfo] a {
+    font-family:'Satisfy', cursive; 
+    color: white;
+    font-size: 25px;
+}
+ 
+footer {
+     background-color: darkslategrey;
+     text-align: center;
+     font-size: 20px;
+     color: white;
+     height: 30px;
+     margin: -8px;
+     padding-top: 10px;
+}
+
+footer a {
+     color: white;
+ }
+
+li {
+     width: 50vw;
+     border:rgb(141, 138, 138) solid 1px; 
+     border-left: none;
+     border-right: none;
+     height: 4vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color:rgb(193, 207, 193);
+     letter-spacing: 1px;
+     word-spacing: 1px;
+      }
+      
+  [role = complementary] ul {
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     flex-direction:column; 
+     height: 20vh;
+     margin-top: -45px;
+     margin-left: -50px;
+     margin-right: 50px;
+   }
+
+.design-name {
+    font-family:'Roboto', sans-serif;
+    font-size: 10px;
+    color: black;
+    padding: 10px;
+    } 
+
+
+.design-archives ul {
+    border: rgb(141, 138, 138) solid 1px; ;
+    height: 4vh;
+    margin-top: -54px;
+}
+
+ 
+.next a {
+    font-family:'Roboto', sans-serif;
+    font-size: 10px;
+    color: rgba(53, 37, 37, 0.582);
+} 
+
+.viewall a {
+    font-family:'Roboto', sans-serif;
+    font-size: 10px;
+    color: rgba(53, 37, 37, 0.582);
+}
+
+#zen-resources ul {
+    
+    height: 7vh;
+    margin-top: -38px;
+    background: url(../img/bamboo.png);
+    background-color:  darkseagreen;
+    }
+
+.wrapper {
+    background: url(../img/bamboo.png);
+    background-color: darkseagreen;
+    width: 100vw;
+    }
+
+#zen-resources li {
+    background: url(../img/bamboo.png);
+    background-color: darkseagreen;
+    height: 2vh;
+    border: none;
+    }
